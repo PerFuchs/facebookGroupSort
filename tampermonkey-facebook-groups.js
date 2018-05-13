@@ -61,7 +61,7 @@
 
         // click "See more" link
         $elements.each(function() {
-            $(this).find('.see_more_link').click();
+            $(this).find('.see_more_link').each().click();
         });
 
         alert("Sorted " + $elements.length + " room listings" );
